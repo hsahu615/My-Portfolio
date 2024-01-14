@@ -37,6 +37,14 @@ const WorkHistory = () => {
           </tr>
         </table>
       </div>
+      <a
+        href='https://drive.google.com/file/d/16vumUB-pSXxP_zMDgucAKQHOws28R8j-/view?usp=sharing'
+        target='_blank'
+      >
+        <button type='button' className='btn cbtn-dark rounded-pill'>
+          Check my Resume
+        </button>
+      </a>
     </div>
   );
 };

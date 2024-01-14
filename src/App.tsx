@@ -26,7 +26,6 @@ function App() {
       ) {
         setCurrentDiv(i);
       }
-      console.log(i, ele.offsetTop, ele.offsetHeight, window.scrollY);
     }
   };
   return (

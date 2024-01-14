@@ -88,7 +88,7 @@ const Contact = () => {
               <input
                 type='text'
                 className='form-control bg-transparent'
-                placeholder='Your Name'
+                placeholder='Name'
                 name='name'
                 onChange={(e) =>
                   setForm({ ...form, [e.target.name]: e.target.value })
@@ -100,7 +100,7 @@ const Contact = () => {
                 type='email'
                 name='email'
                 className='form-control bg-transparent'
-                placeholder='Your Email'
+                placeholder='Email'
                 onChange={(e) =>
                   setForm({ ...form, [e.target.name]: e.target.value })
                 }
@@ -111,7 +111,7 @@ const Contact = () => {
                 rows={4}
                 name='message'
                 className='form-control bg-transparent'
-                placeholder='Your Email'
+                placeholder='Message'
                 onChange={(e) =>
                   setForm({ ...form, [e.target.name]: e.target.value })
                 }

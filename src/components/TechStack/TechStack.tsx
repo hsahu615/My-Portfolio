@@ -49,7 +49,7 @@ const TechStack = () => {
       <div className='tech-stack-footer'>
         <a href='mailto:hsahu615@gmail.com'>
           <button type='button' className='btn cbtn-dark rounded-pill'>
-            Send Me an Mail
+            Send Me an Email
           </button>
         </a>
       </div>

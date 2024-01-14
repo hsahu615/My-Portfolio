@@ -39,6 +39,12 @@ input,
 textarea {
   color: #999 !important;
   border: 1px solid white;
+  font-size: 18px !important;
+  border-radius: 0 !important;
+}
+
+input {
+  height: 8vh;
 }
 
 input::placeholder,

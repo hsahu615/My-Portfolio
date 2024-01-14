@@ -1,5 +1,7 @@
 .work-history {
   min-height: 50vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
   background-color: black;
 }
 
