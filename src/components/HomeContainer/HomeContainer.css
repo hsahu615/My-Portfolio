@@ -1,0 +1,29 @@
+.home-container {
+  min-height: 100vh;
+  background-image: url(../../assets/HomeBG.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.home-container > * {
+  margin: 2vh 0 2vh 0;
+}
+
+.name-box {
+  border: 2px solid #d43f52;
+}
+
+.name-text {
+  letter-spacing: 5px;
+  color: #d43f52;
+  transition: all 0.2s ease-in-out;
+}
+
+.self-description {
+  color: #999;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 45vw;
+  text-align: center;
+}

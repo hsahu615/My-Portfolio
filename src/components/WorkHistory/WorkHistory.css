@@ -1,0 +1,29 @@
+.work-history {
+  min-height: 50vh;
+  background-color: black;
+}
+
+.work-history > * {
+  margin: 2vh 0 2vh 0;
+}
+
+.experience-table {
+  color: white;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+tr {
+  margin-bottom: 1vh;
+}
+
+td,
+th {
+  border-bottom: 1px solid #d43f52;
+  font-size: 1.2rem;
+  padding: 1.2vh 1.5vw;
+}
+
+th {
+  border-bottom-width: 3px;
+}
